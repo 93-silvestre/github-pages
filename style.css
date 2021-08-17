@@ -1,0 +1,15 @@
+h1 {
+    color: darkgreen;
+}
+
+.ts20{
+    font-size: 20;
+    color:darkgrey;
+    text-align:center;
+    background: cornflowerblue;
+}
+
+.ts10{
+    font-size: 10pt;
+    text-align: right;
+}
