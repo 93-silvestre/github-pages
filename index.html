@@ -4,42 +4,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="wifth=device-width, initial-scale=1.0">
-    <title>Meu Perfil</title>
+    <title>PROJETO NPN</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!--para colocar imagem como logo da pagina-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!--para colocar imagem como logo da pagina-->
 </head>
 
 <body>
-    <ul>
-        <li>
-            <a href="index.html"> Home </a>
-        </li>
+    <nav>
+        <div id="opcoes">
+            <ul id="menu">
+                <li>
+                    <a href="index.html"> Página Inicial </a>
+                </li>
+                <li>
+                    <a href="contato.html"> Contato </a>
+                </li>
 
-        <li><a href="contato.html"> Contato </a>
-        </li>
-    </ul>
-     
-    <h1>Projeto Nós Por Nós</h1>
-    <h2>Quem somos</h2>
-    <p class="ts20">Um Projeto sem fins lucrativos, criado para ser a ponte entre quem quer ajudar e quem quer ser ajudado. </p>
-    <p>Nossa missão é ser apoio a iniciativas solidárias e colaborar com associações que atendem demandas de populações carentes na cidade de São Paulo</p>
+            </ul>
+        </div>
 
-    <img src="./img/nath logo sem fundo.png" alt="Foto do logo do projeto" height="300px">
+    </nav>
+
+    <!--<h1>Projeto Nós Por Nós</h1>-->
+    <div class="container">
+        <img class="imgFundo" src="./img/nath logo sem fundo.png" alt="Foto logo do Projeto">
+    </div>
+    <div>
+
+        <h2>Quem somos</h2>
+
+        <section class="descricao">
+            <p>Um Projeto sem fins lucrativos, criado para ser a ponte entre quem quer ajudar e quem quer ser
+                ajudado. </p>
+            <p>Nossa missão é ser apoio a iniciativas solidárias e colaborar com associações que atendem demandas de
+                populações
+                carentes na cidade de São Paulo</p>
+        </section>
+
+    </div>
 
 
     <h2>Quero Ajudar</h2>
-    <p>Você pode ajudar doando itens de higiene, limpeza , alimentos não perecíveis e roupas de frio em geral</p>
-    <p>Pode também divulgar a nossa iniciativa e espalhar essa corrente do bem nos indicando comunidades que precisam de ajuda.</p>
-    <button>Quero Ajudar!</button>
+    <section class="detalhes">
+        <div class="container">
+            <div>
+
+                <img class="imgAjudar br-50 p-30" src="./img/ajudar.jpeg" alt="Foto Quero Ajudar" height="250px">
+
+            </div>
+            <section class="descricao">
+                <p>Você pode ajudar doando itens de higiene, limpeza , alimentos não perecíveis e roupas de frio em
+                    geral
+                </p>
+                <p>Pode também divulgar a nossa iniciativa e espalhar essa corrente do bem nos indicando comunidades que
+                    precisam de
+                    ajuda.</p>
+            
+            <button>
+                <a href="queroAjudar.html">Quero Ajudar</a>
+            </button>
+        </section>
+
+    </section>
 
     <h2>Quero Ajuda</h2>
-    <p>Se você faz parte ou conhece alguma comunidade carente em soluções precarias necessitando de ajuda, fale com a gente!</p>
-    <button>Quero Ajuda!</button>
+    <section class="detalhes">
+        <div class="container">
+            <div>
+
+                <img class="imgAjuda br-50 p-30" src="./img/ajuda.jpeg" alt="Foto Quero Ajuda" height="250px">
+
+            </div>
+            <section class="descricao">
+        <p>Se você faz parte ou conhece alguma comunidade carente em soluções precarias necessitando de ajuda, fale com
+            a
+            gente!</p>
+        
+        <button>
+            <a href="queroAjudar.html"> Quero Ajuda</a>
+        </button>
+    </section>
+    </section>
 
     <h2>Entregas realizadas</h2>
-    <p>Queremos compartilhar todas as entregas que conseguimos realizar.</p>
-    <button>Ver entregas</button>
+    <section class="detalhes">
+        <div class="container">
+            <div>
 
+                <img class="imgEntregas br-50 p-30" src="./img/entregas.jpeg" alt="Foto Entregas" height="250px">
+
+            </div>
+            <section class="descricao">
+        <p>Queremos compartilhar todas as entregas que conseguimos realizar.</p>
+        <button>
+            <a href="entregas.html">Ver entregas</a>
+        </button>
+    </section>
+    </section>
+
+    <hr>
+    <br>
+    <p class="center">
+        &copy; Todos os direitos reservados: Projeto Nós Por Nós
+        <!--&cpoy cria icone-->
+    </p>
+    </footer>
 </body>
 
 </html>
