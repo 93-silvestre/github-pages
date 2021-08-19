@@ -5,11 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROJETO NPN</title>
-    <link rel="estilopix.css" rel="stylesheet" media="screem and (min-width:641px)">
-    <link rel="stylesheet" href="smartphone.css" rel="stylesheet" media="screem and (max-width:640px)">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" media="(max-width: 800px)" href="./css/style.css" />
     <!--para colocar imagem como logo da pagina-->
+    <style>
+        @media (max-width: 600px) {
+            .facet_sidebar {
+                display: none;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -46,27 +52,36 @@
 
     </div>
 
+    <div>
+        <h2>Quero Ajudar</h2>
+        <section>
+            <div class="container">
+                <div>
 
-    <h2>Quero Ajudar</h2>
-    <section class="detalhes">
-        <div class="container">
-            <div>
+                    <img class="imgAjudar br-50 p-30" src="./img/ajudar.jpeg" alt="Foto Quero Ajudar" height="250px">
 
-                <img class="imgAjudar br-50 p-30" src="./img/ajudar.jpeg" alt="Foto Quero Ajudar" height="250px">
+                </div>
+                <section class="descricao">
+                    <p>Você pode ajudar doando itens de higiene, limpeza , alimentos não perecíveis e roupas de frio em
+                        geral
+                    </p>
+                    <p>Pode também divulgar a nossa iniciativa e espalhar essa corrente do bem nos indicando comunidades
+                        que
+                        precisam de
+                        ajuda.</p>
 
+                    <div>
+                        <button>
+                            <ul id="button">
+                                <li>
+                                    <a href="queroAjudar.html">Quero Ajudar</a>
+                                </li>
+                            </ul>
+                        </button>
+                    </div>
             </div>
-            <section class="descricao">
-                <p>Você pode ajudar doando itens de higiene, limpeza , alimentos não perecíveis e roupas de frio em
-                    geral
-                </p>
-                <p>Pode também divulgar a nossa iniciativa e espalhar essa corrente do bem nos indicando comunidades que
-                    precisam de
-                    ajuda.</p>
-            
-            <button>
-                <a href="queroAjudar.html">Quero Ajudar</a>
-            </button>
-        </section>
+    </div>
+    </section>
 
     </section>
 
@@ -79,14 +94,21 @@
 
             </div>
             <section class="descricao">
-        <p>Se você faz parte ou conhece alguma comunidade carente em soluções precarias necessitando de ajuda, fale com
-            a
-            gente!</p>
-        
-        <button>
-            <a href="queroAjudar.html"> Quero Ajuda</a>
-        </button>
-    </section>
+                <p>Se você faz parte ou conhece alguma comunidade carente em soluções precarias necessitando de
+                    ajuda,
+                    fale com
+                    a
+                    gente!</p>
+                <div>
+                    <button>
+                        <ul id="button">
+                            <li>
+                                <a class="button" href="queroAjudar.html"> Quero Ajuda</a>
+                            </li>
+                        </ul>
+                    </button>
+                </div>
+            </section>
     </section>
 
     <h2>Entregas realizadas</h2>
@@ -98,19 +120,27 @@
 
             </div>
             <section class="descricao">
-        <p>Queremos compartilhar todas as entregas que conseguimos realizar.</p>
-        <button>
-            <a href="entregas.html">Ver entregas</a>
-        </button>
-    </section>
+                <p>Queremos compartilhar todas as entregas que conseguimos realizar.</p>
+                <div>
+                    <button>
+                        <ul id="button">
+                            <li>
+                                <a class="button" href="entregas.html">Ver entregas</a>
+                            </li>
+                        </ul>
+                    </button>
+                </div>
+
+            </section>
     </section>
 
     <hr>
     <br>
-    <p class="center">
-        &copy; Todos os direitos reservados: Projeto Nós Por Nós
-        <!--&cpoy cria icone-->
-    </p>
+    <footer>
+        <p class="center">
+            &copy; Todos os direitos reservados: Projeto Nós Por Nós
+            <!--&cpoy cria icone-->
+        </p>
     </footer>
 </body>
 

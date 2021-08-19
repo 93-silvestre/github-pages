@@ -1,3 +1,10 @@
+@media (max-width: 600px){
+  .imgFundo, .imgEntregas,.imgAjudar,.imgAjuda, .descricao{
+      width: 100%;
+  }
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -20,6 +27,15 @@
 
   .br-50{
       border-radius: 50%;
+  }
+
+  .mb-50{
+    margin-bottom: 50px;
+}
+
+
+  #myBtn{
+    cursor: pointer;
   }
 
 /*Estilo Menu*/
@@ -95,6 +111,24 @@ h2{
     padding-left: 100px;
 }
 
+#button li{
+    display: inline;
+    padding: 25px;
+    
+}
+
+#button li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+  
+}
+
+#button li a:hover{ /* quando o mouse passa por cima muda a cor*/
+    color: gray;
+    
+}
+
 .imgAjudar{
     display: flex;
     height: 300px;
@@ -114,4 +148,16 @@ h2{
     height: 300px;
     justify-content: flex-end;
 
+}
+
+/*Estilo pagina Contato*/
+
+.ml-50{
+    margin-left: 50px;
+}
+
+#formtCont{
+    font-family: Montserrat;
+    margin: 2%;
+    
 }
